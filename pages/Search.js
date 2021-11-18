@@ -46,7 +46,7 @@ const ButtonContainer = tw.div `
 `
 
 const BackButton = tw.img `
-  h-12 transform hover:scale-110 transition
+  h-12 transform hover:scale-110 transition cursor-pointer
 `
 const InputContainer = tw.div `
   bg-white flex items-center px-4 mb-2
@@ -87,9 +87,9 @@ const StartIcon = tw.img `
 `
 
 const ConfirmLocation = tw.div `
-bg-black my-4 mx-10 rounded-full
+bg-black my-4 mx-10 rounded-full py-3
 `
 
 const ConfirmButton = tw.div `
-  text-white flex items-center justify-center
+  text-white flex items-center justify-center cursor-pointer transform hover:scale-110 transition text-2xl
 `

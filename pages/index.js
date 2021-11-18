@@ -31,14 +31,18 @@ export default function Home() {
             Ride
           </ActionButton>
           </Link>
+          <Link href='/Search'>
           <ActionButton>
             <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png" />
             Wheels
           </ActionButton>
+          </Link>
+          <Link href='/Search'>
           <ActionButton>
             <ActionButtonImage src="https://i.ibb.co/5RjchBg/uberschedule.png" />
             Reserve
           </ActionButton>
+          </Link>
         </ActionButtons>
         <InputButton>
         Where to?
